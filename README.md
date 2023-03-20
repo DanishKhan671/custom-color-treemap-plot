@@ -45,7 +45,7 @@ treemap y_TOT, by(NUTS0) labsize(2.5) format(15.0fc) title("Population of Europe
 ```
 <img src="/figures/treemap1.png" height="500">
 
-However, if you wish to custom color the tiles of each country, you can do this by defining your own colorpalette as follows:
+However, if you wish to custom color the tiles of each country, you can do this by programming your own colorpalette as follows:
 
 ```
 program colorpalette_palette1
