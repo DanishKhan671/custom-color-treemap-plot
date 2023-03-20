@@ -52,7 +52,11 @@ program colorpalette_palette1
 	c_local P 0 127 95, 157 2 8, 90 24 154, 253 197 0, 129 247 229
 	c_local I CustomDGreen, CustomCranberry, CustomPurple, CustomYellow, CustomTurquoise
 	end
+```
 
+After programming the colorpalette, you can use the `palette` option to apply the custom palette on treemap plot.
+
+```
 treemap y_TOT, by(NUTS0) labsize(2.5) format(15.0fc) palette(palette1) title("Population of European countries")
 ```
 
